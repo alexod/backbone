@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Test Task</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="page-header" id="testhead">Test</h1>
+		<div class="block-table"></div>
+	</div>
+	<script id="person-table" type="text/template">
+		<thead>
+			<tr>
+				<th column="firstname"><div>First Name</div></th>
+				<th column="lastname"><div>Last Name</div></th>
+				<th column="age"><div>Age</div></th>
+				<th column="income"><div>Income</div></th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</script>
+	<script id="person-row" type="text/template">
+		<td><div><%= firstname %></div></td>
+		<td><div><%= lastname %></div></td>
+		<td><div><%= age %></div></td>
+		<td><div><%= income %></div></td>
+	</script>
+	<script type="text/javascript" src="js/personData.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/underscore.js"></script>
+	<script type="text/javascript" src="js/backbone.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
